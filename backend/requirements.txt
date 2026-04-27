@@ -1,0 +1,10 @@
+ollama
+dotenv
+requests
+pathlib
+argparse
+pydantic
+uvicorn
+fastapi
+rich
+logging

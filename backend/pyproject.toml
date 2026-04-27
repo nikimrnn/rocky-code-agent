@@ -1,0 +1,25 @@
+[project]
+name = "backend"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "yuzadef", email = "yuzadef@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "argparse>=1.4.0",
+    "dotenv>=0.9.9",
+    "fastapi>=0.136.0",
+    "logging>=0.4.9.6",
+    "ollama>=0.6.1",
+    "pathlib>=1.0.1",
+    "pydantic>=2.13.3",
+    "requests>=2.33.1",
+    "textual>=8.2.4",
+    "uvicorn>=0.46.0",
+]
+
+[build-system]
+requires = ["uv_build>=0.9.18,<0.10.0"]
+build-backend = "uv_build"
